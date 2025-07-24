@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Suplementação</title>
+</head>
+<body>
+
+<div style="display: flex; justify-content: center; padding: 40px;">
+  <form id="formulario-suplementacao" style="max-width: 400px; width: 100%; background: transparent;">
+    <h2 style="text-align: center; color: #6a1b9a; font-size: 20px; font-weight: bold; margin-bottom: 24px;">
+      Insira seus dados para garantir sua vaga
+    </h2>
+
+    <input type="text" id="nome" name="name" placeholder="Nome e sobrenome" required style="width: 100%; padding: 14px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 8px;" />
+    <input type="email" id="email" name="email" placeholder="Seu e-mail" required style="width: 100%; padding: 14px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 8px;" />
+    <input type="tel" id="telefone" name="phone" placeholder="Seu WhatsApp com DDD" required style="width: 100%; padding: 14px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px;" />
+
+    <!-- Campos ocultos opcionais -->
+    <input type="hidden" name="form_fields[utm_source]" />
+    <input type="hidden" name="form_fields[utm_medium]" />
+    <input type="hidden" name="form_fields[utm_campaign]" />
+    <input type="hidden" name="form_fields[utm_term]" />
+    <input type="hidden" name="form_fields[utm_content]" />
+    <input type="hidden" name="form_fields[xcod]" />
+    <input type="hidden" name="form_fields[sck]" />
+
+    <button type="submit" style="width: 100%; padding: 16px; background-color: #7B2CBF; color: white; font-weight: bold; border: none; border-radius: 10px; cursor: pointer;">
+      Quero garantir minha vaga!
+    </button>
+  </form>
+</div>
+
+<script>
+// ... script completo exatamente como no seu código original,
+// mas REMOVENDO essa linha:
+
+// alert("UTMs que serão enviadas: " + JSON.stringify(utms));
+
+</script>
+
+</body>
+</html>
